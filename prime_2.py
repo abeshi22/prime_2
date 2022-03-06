@@ -1,4 +1,4 @@
-print("入力された数までの素数を列挙します")
+print("入力された数より小さい素数を列挙します")
 while True:
     num = (input("いくつまで"))
     if num.isdigit() == False or int(num) == 0:
