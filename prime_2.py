@@ -8,7 +8,6 @@ while True:
     else:
         num = int(num)
         break
-
 print(num, "より小さい素数は、")
 for i in range(2, num):
     for j in range(2, i):
