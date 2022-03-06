@@ -1,9 +1,11 @@
 print("入力された数までの素数を列挙します")
-num = (input("いくつまで"))
-if num.isdigit() == False:
-    print("数字を入力してください")
-else:
-    num = int(num)
+while True:
+    num = (input("いくつまで"))
+    if num.isdigit() == False:
+        print("正の整数を入力してください")
+    else:
+        num = int(num)
+        break
 
 print(num, "までの素数は、")
 for i in range(2, num):
