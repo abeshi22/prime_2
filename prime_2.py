@@ -1,6 +1,6 @@
 print("入力された数より小さい素数を列挙します")
 while True:
-    num = (input("いくつまで"))
+    num = (input("いくつまで？"))
     if num.isdigit() == False or int(num) == 0:
         print("自然数を入力してください")
     elif int(num) == 1:
