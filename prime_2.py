@@ -5,6 +5,8 @@ while True:
         print("自然数を入力してください")
     elif int(num) == 1:
         print("1は素数ではありません")
+    elif int(num) >= 99999:
+        print("大きすぎます")
     else:
         num = int(num)
         break
